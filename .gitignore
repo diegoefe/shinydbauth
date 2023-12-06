@@ -1,0 +1,17 @@
+.Rproj.user
+.Rhistory
+.RData
+.Ruserdata
+# *\.Rproj
+#*\.sqlite
+inst/doc
+doc
+Meta
+docs
+inst/demo_app/rsconnect
+
+qf_pg_template.yml
+test_db.R
+
+
+mkTar*

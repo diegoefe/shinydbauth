@@ -1,0 +1,16 @@
+^\.travis\.yml$
+^shinydbauth\.Rproj$
+^\.Rproj\.user$
+^todo\.md$
+^dev$
+^doc$
+^docs$
+^Meta$
+^_pkgdown\.yml$
+^pkgdown$
+^.*\.sqlite$
+inst/demo_app/rsconnect
+demo
+
+inst/sql_config/qf_pg_template.yml
+test_db.R

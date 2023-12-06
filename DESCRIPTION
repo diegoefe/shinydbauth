@@ -1,0 +1,29 @@
+Package: shinydbauth
+Title: Provides Simple Authentication to a Shiny Application
+Version: 1.0.0.1
+Authors@R: person("Diego", "Florio", , "diegoefe@gmail.com", role = c("aut", "cre"),
+           comment = c(ORCID = "0009-0002-1799-0189"))
+Description: Provides simple authentication to a Shiny Application.
+License: GPL-3
+URL: https://github.com/datastorm-open/shinydbauth
+Encoding: UTF-8
+RoxygenNote: 7.2.3
+Imports: 
+    R6,
+    shiny,
+    htmltools,
+    DT (>= 0.5),
+    DBI,
+    RSQLite,
+    openssl,
+    R.utils,
+    billboarder,
+    scrypt,
+    yaml,
+    glue
+Suggests: 
+    keyring,
+    testthat (>= 2.1.0),
+    knitr,
+    rmarkdown,
+    RPostgres

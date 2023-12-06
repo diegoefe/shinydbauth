@@ -1,0 +1,14 @@
+DBI
+dplyr
+ggplot2
+glue
+jsonlite
+keyring
+namedCapture
+RPostgreSQL
+RSQLite
+shiny
+shinydashboard
+shinydbauth
+stringi
+tidyr
