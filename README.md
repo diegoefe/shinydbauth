@@ -10,7 +10,11 @@
 > **ATENTION**: This project uses modified (stripped and incomplete) code from [ShinyManager](https://github.com/datastorm-open/shinymanager/) which provides a more secure, extended, generic and completed authentication solution, please **use it instead for stable applications**.
 
 
-### Available language
+### Usage
+
+See [demo](demo/README.md) application.
+
+### Available languages
 
 - English
 - Español
@@ -54,10 +58,6 @@ Or install development version from GitHub :
 remotes::install_github("diegoefe/shinydbauth")
 ```
 
-
-### Usage
-
-See [demo](demo/README.md) application.
 
 ### Customization
 
