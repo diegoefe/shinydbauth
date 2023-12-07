@@ -297,7 +297,7 @@ language <- R6::R6Class(
 #'
 #' @examples
 #'
-#' use_language(lan = "fr")
+#' use_language(lan = "en")
 #'
 use_language <- function(lan = "en") {
   lang <- language$new()

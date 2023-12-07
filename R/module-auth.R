@@ -17,8 +17,8 @@
 #'
 #' @name module-authentication
 #'
-#' @importFrom htmltools tagList tags singleton
-#' @importFrom shiny NS fluidRow column textInput passwordInput actionButton uiOutput
+#' @importFrom htmltools tagList tags singleton HTML
+#' @importFrom shiny NS fluidRow column textInput passwordInput actionButton uiOutput selectInput
 #'
 auth_ui <- function(id, status = "primary", tags_top = NULL,
                     tags_bottom = NULL, background = NULL,
@@ -168,7 +168,8 @@ auth_ui <- function(id, status = "primary", tags_top = NULL,
 #'  }
 #'
 #' @importFrom htmltools tags
-#' @importFrom shiny reactiveValues observeEvent removeUI updateQueryString insertUI is.reactive icon updateActionButton updateTextInput renderUI
+#' @importFrom shiny reactiveValues observeEvent removeUI updateQueryString insertUI is.reactive
+#' @importFrom shiny reactiveVal icon updateActionButton updateTextInput renderUI
 #' @importFrom stats setNames
 auth_server <- function(input, output, session,
                         check_credentials,

@@ -4,3 +4,5 @@
 .Ruserdata
 inst/doc
 mkTar*
+
+shinydbauth_*.tar.gz

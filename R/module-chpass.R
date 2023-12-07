@@ -33,7 +33,7 @@ chpass_ui <- function(id, tag_img = NULL, status = "primary", lan = NULL) {
       tags$br(), tags$div(style = "height: 0px;"), tags$br(),
       navbarPage(
       title = "",
-      theme = theme,
+      # theme = theme,
       fluid = TRUE,
       header = tagList(
         tags$style(".navbar-header {margin-left: 16.66% !important;}"),
@@ -114,7 +114,7 @@ chpass_ui <- function(id, tag_img = NULL, status = "primary", lan = NULL) {
 }
 
 #' @param input,output,session Standard Shiny server arguments.
-#' @param update_pupdate_credentials A \code{function} to perform an action when changing password is successful.
+#' @param update_credentials A \code{function} to perform an action when changing password is successful.
 #'  Two arguments will be passed to the function: \code{user} (username) and \code{password}
 #'  (the new password). Must return a list with at least a slot \code{result} with \code{TRUE}
 #'  or \code{FALSE}, according if the update has been successful.
@@ -130,6 +130,7 @@ chpass_ui <- function(id, tag_img = NULL, status = "primary", lan = NULL) {
 #'
 #' @importFrom htmltools tags
 #' @importFrom shiny reactiveValues observeEvent removeUI insertUI icon actionButton
+#' @importFrom shiny reactive reactiveValuesToList isTruthy
 #' @importFrom utils getFromNamespace
 chpass_server <- function(input, output, session, update_credentials, validate_pwd = NULL, 
                        use_token = FALSE, lan = NULL) {

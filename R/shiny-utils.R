@@ -168,17 +168,3 @@ unbindDT <- function(id, session = getDefaultReactiveDomain()) {
     message = list(id = id)
   )
 }
-
-fileReaderSqlite <- function(sqlite_path, passphrase, name){
-    conn <- dbConnect(SQLite(), dbname = sqlite_path)
-    on.exit(dbDisconnect(conn))
-    res <- tryCatch(read_db_decrypt(conn = conn, name = name, passphrase = passphrase), 
-             error = function(e) NULL)
-}
-
-fileReaderSQL <- function(config_db, name){
-    conn <- connect_sql_db(config_db)
-    on.exit(disconnect_sql_db(conn))
-    res <- tryCatch(dbReadTable(conn, config_db$tables[[name]]$tablename), 
-                    error = function(e) NULL)
-}

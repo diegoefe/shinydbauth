@@ -14,3 +14,7 @@ demo
 
 inst/sql_config/qf_pg_template.yml
 test_db.R
+
+mkTar*
+check_pkg.sh
+local_inst.sh

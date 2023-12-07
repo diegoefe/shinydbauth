@@ -31,16 +31,16 @@ Valid status are: \code{"default"}, \code{"primary"}, \code{"success"},
 
 \item{input, output, session}{Standard Shiny server arguments.}
 
+\item{update_credentials}{A \code{function} to perform an action when changing password is successful.
+Two arguments will be passed to the function: \code{user} (username) and \code{password}
+(the new password). Must return a list with at least a slot \code{result} with \code{TRUE}
+or \code{FALSE}, according if the update has been successful.}
+
 \item{validate_pwd}{A \code{function} to validate the password enter by the user.
 Default is to check for the password to have at least one number, one lowercase,
 one uppercase and be of length 6 at least.}
 
 \item{use_token}{Add a token in the URL to check authentication. Should not be used directly.}
-
-\item{update_pupdate_credentials}{A \code{function} to perform an action when changing password is successful.
-Two arguments will be passed to the function: \code{user} (username) and \code{password}
-(the new password). Must return a list with at least a slot \code{result} with \code{TRUE}
-or \code{FALSE}, according if the update has been successful.}
 }
 \description{
 Change password module

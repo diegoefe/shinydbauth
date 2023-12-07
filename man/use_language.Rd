@@ -18,6 +18,6 @@ See all labels registered with \code{get_labels()},
 }
 \examples{
 
-use_language(lan = "fr")
+use_language(lan = "en")
 
 }
