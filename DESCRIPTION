@@ -3,7 +3,7 @@ Title: Simple authentication for 'shiny' applications
 Version: 1.0.0.1
 Authors@R: person("Diego", "Florio", , "diegoefe@gmail.com", role = c("aut", "cre"),
            comment = c(ORCID = "0009-0002-1799-0189"))
-Description: Simple authentification mechanism for single 'Shiny' applications.
+Description: Simple authentification mechanism for single 'shiny' applications.
     Athentification and password change functionality are performed calling user provided functions that tipically access some database backend.
     Source code of main application is protected until authentication is successful.
 License: GPL-3

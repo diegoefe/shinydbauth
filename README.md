@@ -3,7 +3,10 @@
 <!-- [![cran checks](https://cranchecks.info/badges/worst/shinydbauth)](https://cranchecks.info/pkgs/shinydbauth) -->
 <!-- [![Project Status: Active – The project has reached a stable, usable state and is being actively developed.](https://www.repostatus.org/badges/latest/active.svg)](https://www.repostatus.org/#active) -->
 
-Simple DB authentication mechanism for single 'Shiny' applications with "Change password" interface
+Simple authentification mechanism for single 'shiny' applications.
+
+Athentification and password change functionality are performed calling user provided functions that tipically access some database backend.<br>
+Source code of main application is protected until authentication is successful.
 
 > **ATENTION**: This project uses borrowed and modified (stripped and incomplete) code from [ShinyManager](https://github.com/datastorm-open/shinymanager/) which provides a more secure, extended, generic and completed authentication solution, please **use it instead for stable applications**.
 
