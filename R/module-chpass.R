@@ -167,7 +167,6 @@ chpass_server <- function(input, output, session, update_credentials, validate_p
   }
 
   fail <- function(lan_msg, focus_on) {
-    print(paste("fail(", lan_msg, ",", focus_on, ")"))
     insertUI(
         selector = jns("result_pwd"),
         ui = tags$div(
@@ -204,7 +203,6 @@ chpass_server <- function(input, output, session, update_credentials, validate_p
     } else {
       token <- getToken(session = session)
       user <- .tok$get_user(token)
-      # print(paste("user?", user))
       res_pwd <- update_credentials(user, input$pwd_cur, input$pwd_one)
       if (isTRUE(res_pwd$result)) {
         password$result <- TRUE

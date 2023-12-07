@@ -18,10 +18,10 @@ get_user_data <- function(parseable) {
     },
     error = function(e){
       # message('Caught an error!')
-      # print(e)
+      # message(e)
     },
     warning = function(w){
-      # print(w)
+      # message(w)
     },
     finally = {
       # message('All done, quitting.')

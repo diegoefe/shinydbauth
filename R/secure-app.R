@@ -43,7 +43,6 @@ secure_app <- function(ui,
 
   function(request) {
     query <- parseQueryString(request$QUERY_STRING)
-    # print(paste("query", query))
     token <- gsub('\"', "", query$token)
     admin <- query$admin
     language <- query$language

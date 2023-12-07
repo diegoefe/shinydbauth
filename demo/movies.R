@@ -191,10 +191,6 @@ my_server_function <- function(user_data, input, output, session) {
   campo <- stri_detect_fixed(ud$perms, "seguimiento_campo", max_count = 1)
   cobertura <- stri_detect_fixed(ud$perms, "monitoreo_cobertura_gestion", max_count = 1)
 
-  # observeEvent(input$lostabs, {
-  #   print(paste0("You have chosen: ", input$lostabs))
-  # })
-
   output$scatterplot <- renderPlot({
     req(input$date)
     movies_selected_date <- movies %>%

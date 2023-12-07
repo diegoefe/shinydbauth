@@ -285,8 +285,6 @@ auth_server <- function(input, output, session,
     }
   }, ignoreInit = TRUE)
 
-  # observe({ print(authentication) })
-
   return(authentication)
 }
 
