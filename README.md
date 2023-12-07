@@ -1,11 +1,9 @@
-# shinydbauth <img src="man/figures/shinydbauth.png" width=200 align="right" />
-
 [![version](http://www.r-pkg.org/badges/version/shinydbauth)](https://CRAN.R-project.org/package=shinydbauth)
 [![cranlogs](http://cranlogs.r-pkg.org/badges/shinydbauth)](https://CRAN.R-project.org/package=shinydbauth)
 <!-- [![cran checks](https://cranchecks.info/badges/worst/shinydbauth)](https://cranchecks.info/pkgs/shinydbauth) -->
 <!-- [![Project Status: Active – The project has reached a stable, usable state and is being actively developed.](https://www.repostatus.org/badges/latest/active.svg)](https://www.repostatus.org/#active) -->
 
-> Simple DB authentication mechanism for single 'Shiny' applications with "Change password" interface
+Simple DB authentication mechanism for single 'Shiny' applications with "Change password" interface
 
 > **ATENTION**: This project uses modified (stripped and incomplete) code from [ShinyManager](https://github.com/datastorm-open/shinymanager/) which provides a more secure, extended, generic and completed authentication solution, please **use it instead for stable applications**.
 
