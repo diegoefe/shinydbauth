@@ -7,10 +7,52 @@ Simple DB authentication mechanism for single 'Shiny' applications with "Change 
 
 > **ATENTION**: This project uses borrowed and modified (stripped and incomplete) code from [ShinyManager](https://github.com/datastorm-open/shinymanager/) which provides a more secure, extended, generic and completed authentication solution, please **use it instead for stable applications**.
 
+### Installation
+
+Install from CRAN with :
+
+```r
+install.packages("shinydbauth")
+```
+
+Or install development version from GitHub :
+
+```r
+remotes::install_github("diegoefe/shinydbauth")
+```
+
+
 
 ### Usage
 
-See [demo](demo/README.md) application for a sample application.
+To run the sample application:
+
+1. Open a terminal (bash) and cd into **demo**.
+1. Choose database backend to use:
+    1. For SQLite:
+        1. cd to "db" and run **mk_db.sh** and go back:
+            ```bash
+            $ cd db
+            $ ./mk_db.sh
+            $ cd ..
+            ```
+        1. look for users and passwords in **sqlite.sql**
+    1. For PostgreSQL:
+        1. Create a database and two functions:
+            - fetch_user()
+            - update_user()
+           Use the signatures for **db_pg.R**'s queries
+        1. Copy **sample-auth.R** to **auth.R** and set it up with correct values:
+            ```bash
+            $ cp sample-auth.R auth.R
+            $ vim auth.R
+            ```
+1. Open **app.R** and follow SETUP instructions
+1. Run the demo:
+    ```bash
+    ./launch_in_browser.sh
+    ```
+
 
 ### Available languages
 
@@ -41,21 +83,6 @@ require(shinydbauth)
  ?set_labels
 
 ````
-
-### Installation
-
-Install from CRAN with :
-
-```r
-install.packages("shinydbauth")
-```
-
-Or install development version from GitHub :
-
-```r
-remotes::install_github("diegoefe/shinydbauth")
-```
-
 
 ### Customization
 
