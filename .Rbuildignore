@@ -18,3 +18,4 @@ test_db.R
 mkTar*
 check_pkg.sh
 local_inst.sh
+^cran-comments\.md$

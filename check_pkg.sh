@@ -1,4 +1,6 @@
 #!/usr/bin/env bash
+
+# this makes subshels to silently fail, so we skip it
 # set -e
 
 pac=$(cat DESCRIPTION | grep Package | awk '{ print $2 }')
