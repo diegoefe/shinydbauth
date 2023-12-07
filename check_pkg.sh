@@ -9,12 +9,16 @@ ver=$(cat DESCRIPTION | grep Version | awk '{ print $2 }')
 tar="${pac}_${ver}.tar.gz"
 lg="./${pac}.Rcheck/00check.log"
 
-function clean() {
-    rm -f ${tar}
+function cleanCheck() {
     rm -rf ${pac}.Rcheck
 }
 
-clean
+function cleanAll() {
+    cleanCheck
+    rm -f ${tar}
+}
+
+cleanAll
 R -e "devtools::document('.')"
 R CMD build .
 # R CMD Rd2pdf .
@@ -24,7 +28,7 @@ status=`cat "${lg}" | grep "Status" | grep -v "1 NOTE"`
 if [ -z "$status" ]
 then
     echo "OK!"
-    clean
+    cleanCheck
 else
     echo "status: [$status]"
 fi
