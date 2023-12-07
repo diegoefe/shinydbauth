@@ -2,7 +2,7 @@
 % Please edit documentation in R/language.R
 \name{use_language}
 \alias{use_language}
-\title{Use {shinydbauth} labels}
+\title{Use shinydbauth labels}
 \usage{
 use_language(lan = "en")
 }

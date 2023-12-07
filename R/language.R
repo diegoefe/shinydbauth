@@ -284,7 +284,7 @@ language <- R6::R6Class(
 )
 
 
-#' @title Use {shinydbauth} labels
+#' @title Use shinydbauth labels
 #'
 #' @description See all labels registered with \code{get_labels()},
 #'  then set custom text with \code{set_labels()}.
@@ -305,7 +305,7 @@ use_language <- function(lan = "en") {
   lang
 }
 
-#' @title Modify {shinydbauth} labels to use custom text
+#' @title Modify shinydbauth labels to use custom text
 #'
 #' @description See all labels registered with \code{get_labels()},
 #'  then set custom text with \code{set_labels()}.

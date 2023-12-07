@@ -4,7 +4,7 @@
 \alias{custom-labels}
 \alias{set_labels}
 \alias{get_labels}
-\title{Modify {shinydbauth} labels to use custom text}
+\title{Modify shinydbauth labels to use custom text}
 \usage{
 set_labels(language, ...)
 
