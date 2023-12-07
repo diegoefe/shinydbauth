@@ -5,12 +5,12 @@
 
 Simple DB authentication mechanism for single 'Shiny' applications with "Change password" interface
 
-> **ATENTION**: This project uses modified (stripped and incomplete) code from [ShinyManager](https://github.com/datastorm-open/shinymanager/) which provides a more secure, extended, generic and completed authentication solution, please **use it instead for stable applications**.
+> **ATENTION**: This project uses borrowed and modified (stripped and incomplete) code from [ShinyManager](https://github.com/datastorm-open/shinymanager/) which provides a more secure, extended, generic and completed authentication solution, please **use it instead for stable applications**.
 
 
 ### Usage
 
-See [demo](demo/README.md) application.
+See [demo](demo/README.md) application for a sample application.
 
 ### Available languages
 
