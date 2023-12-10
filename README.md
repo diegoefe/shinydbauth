@@ -1,6 +1,6 @@
 [![version](http://www.r-pkg.org/badges/version/shinydbauth)](https://CRAN.R-project.org/package=shinydbauth)
 [![cranlogs](http://cranlogs.r-pkg.org/badges/shinydbauth)](https://CRAN.R-project.org/package=shinydbauth)
-[![cran checks](https://cranchecks.info/badges/worst/shinydbauth)](https://cranchecks.info/pkgs/shinydbauth)
+<!-- [![cran checks](https://cranchecks.info/badges/worst/shinydbauth)](https://cranchecks.info/pkgs/shinydbauth) -->
 [![Project Status: Active – The project has reached a stable, usable state and is being actively developed.](https://www.repostatus.org/badges/latest/active.svg)](https://www.repostatus.org/#active)
 
 Simple authentification mechanism for single 'shiny' applications.
