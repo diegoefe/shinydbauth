@@ -1,6 +1,6 @@
 Package: shinydbauth
 Title: Simple Authentification for 'shiny' Applications
-Version: 1.0.0.1
+Version: 1.0.0.2
 Authors@R: person("Diego", "Florio", , "diegoefe@gmail.com", role = c("aut", "cre"),
            comment = c(ORCID = "0009-0002-1799-0189"))
 Description: Provides a simple authentification mechanism for single 'shiny' applications.

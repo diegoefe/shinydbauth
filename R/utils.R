@@ -39,7 +39,3 @@ validate_pwd <- function(pwd) {
     FUN = grepl, x = pwd, FUN.VALUE = logical(1)
   ))
 }
-
-
-
-

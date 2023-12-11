@@ -9,13 +9,16 @@
 ^_pkgdown\.yml$
 ^pkgdown$
 ^.*\.sqlite$
-inst/demo_app/rsconnect
-demo
+#inst/demo_app/rsconnect
 
-inst/sql_config/qf_pg_template.yml
-test_db.R
+#inst/sql_config/qf_pg_template.yml
+#test_db.R
 
 mkTar*
 check_pkg.sh
 local_inst.sh
 ^cran-comments\.md$
+examples/.Rdata
+examples/test.db3
+examples/movies.RData
+^examples$
