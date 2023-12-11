@@ -1,6 +1,6 @@
 # shinydbauth 1.0.0.2
 
-* Fixed demo creation and inclusion in package
+* Demo app moved to external repository
 
 # shinydbauth 1.0.0.1
 

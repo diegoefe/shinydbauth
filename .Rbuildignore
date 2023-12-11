@@ -18,7 +18,3 @@ mkTar*
 check_pkg.sh
 local_inst.sh
 ^cran-comments\.md$
-examples/.Rdata
-examples/test.db3
-examples/movies.RData
-^examples$
