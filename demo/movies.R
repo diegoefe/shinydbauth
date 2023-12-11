@@ -11,7 +11,6 @@ source('common.R')
 options("shiny.sanitize.errors" = FALSE) # Turn off error sanitization
 
 # Load data --------------------------------------------------------------------
-
 load("movies.RData")
 
 n_total <- nrow(movies)
