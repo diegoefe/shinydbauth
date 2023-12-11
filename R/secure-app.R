@@ -306,6 +306,7 @@ secure_server <- function(check_credentials,
 #' @importFrom shiny renderPrint observe isolate
 #'
 #' @rdname secure-app
+#' @example examples/create_server.R
 create_server <- function(check_credentials, update_credentials, server_fn) {
   server <- function(input, output, session) {
     res_auth <- secure_server(check_credentials=check_credentials, update_credentials=update_credentials)  
