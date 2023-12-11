@@ -24,6 +24,12 @@ Or install development version from GitHub :
 remotes::install_github("diegoefe/shinydbauth")
 ```
 
+### Demo application
+
+Go [here](https://github.com/diegoefe/shinydbauth-demo)
+
+
+
 ### Available languages
 
 - English
