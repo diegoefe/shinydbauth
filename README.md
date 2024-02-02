@@ -5,10 +5,10 @@
 
 Simple authentification mechanism for single 'shiny' applications.
 
-Provides a simple authentification and password change functionality are performed calling user provided functions that typically access some database backend.<br>
-Source code of main applications is protected until authentication is successful.
+Provides a simple authentification and **password change** functionality that is performed calling user provided functions that typically access some database backend.<br>
+The source code of core applications is protected once authentication is successful.
 
-> **ATENTION**: This project uses borrowed and modified (stripped and incomplete) code from [ShinyManager](https://github.com/datastorm-open/shinymanager/) which provides a more secure, extended, generic and completed authentication solution, please **use it instead for stable applications**.
+**ATENTION**: This project uses borrowed and modified code from [ShinyManager](https://github.com/datastorm-open/shinymanager/) which provides a more extended, generic and completed authentication solution.
 
 ### Installation
 
